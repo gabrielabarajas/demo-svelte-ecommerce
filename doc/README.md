@@ -46,6 +46,7 @@ Para poder pintar el listado, la aplicación debe saber donde se encuentran. Par
 
 2. Importa `api` y asignaselo de inicio al store creado ([link](https://svelte.dev/examples/writable-stores))
 3. Vamos al componente principal de nuestra aplicación, `+page.svelte`. Importa el `store` que acabamos de crear guárdalo en una variable.
+   Ten en cuenta que a los datos dentro de un store se accede con `$` delante. En nuestro caso `$searchInput`
 4. Pinta en bucle el listado de productos, haciendo uso del componente `<Product />` proporcionado. Dicho componente recibe un objeto por parametro con la información de cada producto:
 
    ```javascript
