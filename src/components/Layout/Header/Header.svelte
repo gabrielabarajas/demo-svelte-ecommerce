@@ -1,10 +1,5 @@
 <script>
-	import { searchInput } from '../../../stores/index.js';
 	import Logo from '../../Common/Logo/Logo.svelte';
-
-	const keyUp = (event) => {
-		$searchInput = event.target.value;
-	};
 </script>
 
 <section class="vtmn-flex vtmn-flex-col vtmn-w-full">
@@ -43,7 +38,6 @@
 				name="search"
 				placeholder="Busca tu producto por marca..."
 				class="vtmn-p-2 vtmn-w-full vtmn-typo_text-3 vtmn-italic vtmn-border-0 focus:vtmn-outline-none"
-				bind:value={$searchInput}
 			/>
 
 			<button
