@@ -102,7 +102,9 @@ Para este ejercicio, tienes disponible la función `getProductsByName` dentro de
 3. Vamos a programar un bloque reactivo. Cada vez que la búsqueda en el input del store cambie, debemos calcular los productos filtrados.
    [Usa un bloque `if` con la reactividad declarada `$:`](https://svelte.dev/examples/reactive-statements). Dentro del bloque, reasigna el valor a `filterProducts` con lo que retorne la función `getProductsByName`
 
-4. Si has seguido todo bien, tu búsqueda será reactiva. Enhorabuena 🎉 !
+4. Cuidado, hay otra condición (`else`). En el caso de que el store `searchInput` este vacio porque el usuario borre la búsqueda, deben volver a mostrarse el listado toal de productos pues no hay filtro aplicado.
+
+5. Si has seguido todo bien, tu búsqueda será reactiva. Enhorabuena 🎉 !
 
 ### 4. Vamos a introducir una validación a la búsqueda
 
