@@ -7924,57 +7924,6 @@ export default {
 		},
 		{
 			entity: 'supermodel',
-			supermodelId: 'X8810195',
-			brand: { label: 'ADIDAS', isPassion: false, id: '11' },
-			webLabel: 'Camiseta fitness future icons Adidas Mujer rosa',
-			types: ['generic'],
-			natureLabel: 'Camiseta',
-			models: [
-				{
-					modelId: '8810195',
-					webLabel: 'Camiseta fitness future icons Adidas Mujer rosa',
-					leadTime: 'Entrega en 24h - 48 horas',
-					colors: [
-						{ label: 'ROSA', hexa: '#E30076', abstract: [{ label: 'ROSA', hexa: '#E30076' }] },
-						{ label: 'NEGRO', hexa: '#000000', abstract: [{ label: 'NEGRO', hexa: '#000000' }] }
-					],
-					image: {
-						media: {
-							extension: 'jpg',
-							resource:
-								'https://contents.mediadecathlon.com/p2472333/k$7d81c2813f9beda76a08ccb0d4a40be4',
-							name: 'Camiseta fitness future icons Adidas Mujer rosa'
-						},
-						url: 'https://contents.mediadecathlon.com/p2472333/k$7d81c2813f9beda76a08ccb0d4a40be4/sq/250x250/Camiseta-fitness-future-icons-Adidas-Mujer-rosa.jpg'
-					},
-					availableSizes: ['XS', 'S', 'M', 'L', 'XL'],
-					gtin: ['4066752350837'],
-					sticker: {
-						display: [
-							{ background: '#EC6607', text: 'Precio exclusivo online', foreground: '#FFFFFF' }
-						],
-						name: 'es_stck44003v'
-					},
-					grossWeight: '0.15',
-					price: 27.99,
-					discountType: 'STANDARD',
-					availableInStores: ['0070043900439'],
-					url: 'p/camiseta-fitness-future-icons-adidas-mujer-rosa/_/R-p-X8810195?mc=8810195&c=ROSA'
-				}
-			],
-			partner: { id: 'DecathlonPartner' },
-			sportGroups: [{ id: 140, label: 'entrenamiento suave' }],
-			sports: [
-				{ id: 261, label: 'pilates' },
-				{ id: 262, label: 'Stretching' },
-				{ id: 263, label: 'Gimnasia sueca' },
-				{ id: 265, label: 'Tonificación' },
-				{ id: 429, label: 'gimnasia suave' }
-			],
-			url: 'p/camiseta-fitness-future-icons-adidas-mujer-rosa/_/R-p-X8810195'
-		},
-		{
-			entity: 'supermodel',
 			supermodelId: '326590',
 			brand: { label: 'KALENJI', isPassion: true, id: '923' },
 			webLabel: 'Camiseta running transpirable Mujer Dry+ breath',
