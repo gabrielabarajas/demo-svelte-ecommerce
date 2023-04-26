@@ -30,7 +30,7 @@
 			<div id="products">
 				<div class="vtmn-typo_text-2 vtmn-mb-1 vtmn-underline">LISTADO DE PRODUCTOS</div>
 
-				<div id="products" class="vtmn-grid vtmn-grid-cols-2 gt-tablet:vtmn-grid-cols-4">
+				<div class="vtmn-grid vtmn-grid-cols-2 gt-tablet:vtmn-grid-cols-4">
 					<!-- Renderiza el listado de productos usando el component <Product /> para pintar cada uno de ellos> -->
 				</div>
 			</div>
